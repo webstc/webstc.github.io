@@ -124,16 +124,15 @@ h3 {
 	color: rgba(0,0,0,1);
 	font-family: 'Cabin';
 	font-size: 20px;
-	padding-left: 30px;
+	padding-left: 5%;
 	text-align: left;
 }
 
 h4 {
 	font-family: 'Cabin';
 	font-size: 16px;
-	font-style: italic;
 	font-weight: bold;
-	padding-left: 5%;
+	padding: 0 5%;
 	text-align: left;
 }
 
@@ -157,14 +156,44 @@ li {
 	text-transform: uppercase;
 }
 
-.classes h4 {
-	text-transform: uppercase;
-	padding: 0px 2%;
+.bio hr {
+ 	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: inset;
+    border-width: 1px;
+
+}
+.bio2 {
+	font-style:italic;
 }
 
+.classes h4 {
+	text-transform: uppercase;
+}
+
+.FAQ h4 {
+	font-style: italic;
+	}
+
+.FAQ p {
+	padding: 0px 10%;
+	color:rgba(0,0,0,.8);
+}
 .session {
 	font-size: 80%;
 	text-transform: uppercase;
+}
+
+#skillful {
+	font-style:italic;
+}
+
+#email {
+	font-weight:bold;
+	font-style: italic;
 }
 /*
 .location {
